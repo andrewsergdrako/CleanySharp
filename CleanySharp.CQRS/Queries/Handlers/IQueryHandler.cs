@@ -1,4 +1,4 @@
-namespace CQRS.Queries.Handlers;
+namespace CleanySharp.CQRS.Queries.Handlers;
 
 public interface IQueryHandler<in TQuery, TResult> where TQuery : IQuery<TResult>
 {

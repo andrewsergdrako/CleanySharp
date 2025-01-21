@@ -1,4 +1,4 @@
-namespace CQRS.Queries;
+namespace CleanySharp.CQRS.Queries;
 
 public interface IQuery
 {
