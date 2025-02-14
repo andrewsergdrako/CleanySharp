@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanySharp.CQRS.Commands", "CleanySharp.CQRS.Commands\CleanySharp.CQRS.Commands.csproj", "{459FC668-779D-45E9-B472-772DBB6BA855}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanySharp.CQRS.Queries", "CleanySharp.CQRS.Queries\CleanySharp.CQRS.Queries.csproj", "{F4977EF2-DD9A-45B4-AEEC-2F6344D154F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanySharp.Configuration.Extensions", "CleanySharp.Configuration.Extensions\CleanySharp.Configuration.Extensions.csproj", "{450E4B3F-8419-42E3-B714-052C87E370AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{459FC668-779D-45E9-B472-772DBB6BA855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{459FC668-779D-45E9-B472-772DBB6BA855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{459FC668-779D-45E9-B472-772DBB6BA855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{459FC668-779D-45E9-B472-772DBB6BA855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4977EF2-DD9A-45B4-AEEC-2F6344D154F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4977EF2-DD9A-45B4-AEEC-2F6344D154F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4977EF2-DD9A-45B4-AEEC-2F6344D154F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4977EF2-DD9A-45B4-AEEC-2F6344D154F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{450E4B3F-8419-42E3-B714-052C87E370AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{450E4B3F-8419-42E3-B714-052C87E370AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{450E4B3F-8419-42E3-B714-052C87E370AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{450E4B3F-8419-42E3-B714-052C87E370AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
