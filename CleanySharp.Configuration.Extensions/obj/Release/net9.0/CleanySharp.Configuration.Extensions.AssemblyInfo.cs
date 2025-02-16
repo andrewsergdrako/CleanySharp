@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Andrej Drako")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9d4ae3f9cccc2959c58ab497a0255d178095eb3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfb340483eaea732fa473138160b17e1c857f9ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("CleanySharp.Configuration.Extensions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CleanySharp.Configuration.Extensions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

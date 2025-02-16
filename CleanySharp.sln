@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanySharp.CQRS.Queries", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanySharp.Configuration.Extensions", "CleanySharp.Configuration.Extensions\CleanySharp.Configuration.Extensions.csproj", "{450E4B3F-8419-42E3-B714-052C87E370AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanySharp.Abstractions", "CleanySharp.Abstractions\CleanySharp.Abstractions.csproj", "{A90E7FEE-F262-42D7-BE45-9B32E1C6D0C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{450E4B3F-8419-42E3-B714-052C87E370AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{450E4B3F-8419-42E3-B714-052C87E370AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{450E4B3F-8419-42E3-B714-052C87E370AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A90E7FEE-F262-42D7-BE45-9B32E1C6D0C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A90E7FEE-F262-42D7-BE45-9B32E1C6D0C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A90E7FEE-F262-42D7-BE45-9B32E1C6D0C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A90E7FEE-F262-42D7-BE45-9B32E1C6D0C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

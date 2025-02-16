@@ -1,0 +1,11 @@
+# Rider + .NET
+.idea/
+.vs/
+bin/
+obj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.csproj.user
+.DS_Store
