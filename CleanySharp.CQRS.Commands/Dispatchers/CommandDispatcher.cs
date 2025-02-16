@@ -11,7 +11,7 @@ public class CommandDispatcher(IServiceProvider serviceProvider) : ICommandDispa
         return handler.HandleAsync(command, cancellationToken);
     }
 
-    public Task DispatchAsync<TCommand, TResult>(TCommand command, CancellationToken cancellationToken = default) where TCommand : class, ICommand<TResult>
+    public Task<TResult> DispatchAsync<TCommand, TResult>(TCommand command, CancellationToken cancellationToken = default) where TCommand : class, ICommand<TResult>
     {
         var scope = serviceProvider.CreateScope();
         var handler = scope.ServiceProvider.GetRequiredService<ICommandHandler<TCommand, TResult>>();
